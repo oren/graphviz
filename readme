@@ -5,3 +5,5 @@
 ## generate image
 
     dot -Tpng input.dot > output.png
+    dot -Tpng input2.dot > output2.png
+    dot -Tpng input3.dot > output3.png

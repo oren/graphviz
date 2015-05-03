@@ -1,0 +1,16 @@
+digraph { 
+  rankdir=LR;
+  
+  subgraph cluster_0 {
+    label="Dashboard";
+      a -> b;
+      b -> c;
+      c -> d;
+  }
+    
+  subgraph cluster_1 {
+    label="Validation";
+      f[color="green"];
+      d -> f;
+  }
+}
