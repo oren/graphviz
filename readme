@@ -1,0 +1,7 @@
+## pre
+
+    apt-get install graphviz
+
+## generate image
+
+    dot -Tpng input.dot > output.png
