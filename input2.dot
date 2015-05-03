@@ -1,7 +1,9 @@
 digraph { 
-  "PI login" -> "Validation";
-  "PI forgot password" -> "Validation"[color="blue"];
-  "PI logout" -> "Validation";
-  "PI register" -> "Validation"[label="email/pass"];
-  Validation[color="green"];
+  a[label="Validation", color="green", style="filled"];
+
+  "PI login" -> a;
+  "PI forgot password" -> a[color="blue", style="dashed"];
+  "PI logout" -> a;
+  "PI register" -> a[label="email/pass"];
+
 }

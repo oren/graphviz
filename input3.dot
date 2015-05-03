@@ -1,8 +1,11 @@
 digraph { 
-  rankdir=LR;
+  rankdir=RL;
   
   subgraph cluster_0 {
     label="Dashboard";
+    color="green";
+    style="filled, rounded"
+    style="filled, rounded"
       a -> b;
       b -> c;
       c -> d;
